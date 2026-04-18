@@ -4,6 +4,12 @@ All notable changes to this plugin are documented here.
 
 The format is based on Keep a Changelog, and this plugin uses semantic versioning.
 
+## [1.0.1] - 2026-04-19
+
+### Added
+
+- `PRIVACY.md` with data-handling disclosure for marketplace submission (Claude Code, local hooks, GitHub hosting, Anthropic product terms).
+
 ## [1.0.0] - 2026-04-18
 
 ### Added
