@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Docker Desktop validation capture</title>
+  <desc id="desc">Terminal style capture showing successful isolated validation of the GCP DevKit plugin.</desc>
+  <rect width="1200" height="640" rx="18" fill="#101722"/>
+  <rect x="0" y="0" width="1200" height="58" rx="18" fill="#1f2937"/>
+  <circle cx="34" cy="29" r="8" fill="#fb7185"/><circle cx="60" cy="29" r="8" fill="#fbbf24"/><circle cx="86" cy="29" r="8" fill="#4ade80"/>
+  <text x="600" y="35" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" text-anchor="middle">Docker Desktop · isolated plugin validation</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">
+    <text x="48" y="108" fill="#86efac">$ docker run --rm --network none -v &quot;$PWD:/plugin:ro&quot; node:20-alpine ...</text>
+    <text x="48" y="154" fill="#94a3b8">client=29.6.2 server=29.6.2</text>
+    <text x="48" y="190" fill="#f8fafc">PASS empty (silent)</text>
+    <text x="48" y="226" fill="#f8fafc">PASS with-terraform</text>
+    <text x="48" y="262" fill="#86efac">2 passed, 0 failed</text>
+    <text x="48" y="316" fill="#f8fafc">PASS state-changing commands use neutral language</text>
+    <text x="48" y="352" fill="#f8fafc">PASS failed Cloud Build is identified</text>
+    <text x="48" y="388" fill="#f8fafc">PASS other tools stay silent</text>
+    <text x="48" y="424" fill="#86efac">3 passed, 0 failed</text>
+    <text x="48" y="478" fill="#86efac">plugin manifest passed</text>
+    <text x="48" y="514" fill="#86efac">marketplace manifest passed</text>
+    <text x="48" y="580" fill="#64748b">Network disabled · read-only mount · Node 20</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "gcp-devkit",
+  "displayName": "GCP DevKit",
+  "version": "1.1.0",
+  "description": "Practical Google Cloud guidance for Terraform, Cloud Run, GKE, Firestore, IAM reviews, and incident diagnosis.",
+  "author": {
+    "name": "GCP DevKit contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gcp",
+    "google-cloud",
+    "terraform",
+    "cloud-run",
+    "gke",
+    "iam",
+    "cloud-functions"
+  ],
+  "homepage": "https://github.com/mohitkale/gcp-devkit",
+  "repository": "https://github.com/mohitkale/gcp-devkit.git"
+}

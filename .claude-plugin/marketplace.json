@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "gcp-devkit-marketplace",
+  "owner": {
+    "name": "GCP DevKit contributors"
+  },
+  "description": "A focused Google Cloud workflow plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "gcp-devkit",
+      "source": "./",
+      "description": "Practical Google Cloud guidance for Terraform, Cloud Run, GKE, Firestore, IAM reviews, and incident diagnosis.",
+      "version": "1.1.0",
+      "category": "development",
+      "tags": ["gcp", "terraform", "cloud-run", "gke", "iam"]
+    }
+  ]
+}
