@@ -1,10 +1,11 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "gcp-devkit-marketplace",
   "owner": {
     "name": "GCP DevKit contributors"
   },
-  "description": "A focused Google Cloud workflow plugin for Claude Code.",
+  "metadata": {
+    "description": "A focused Google Cloud workflow plugin for Claude Code."
+  },
   "plugins": [
     {
       "name": "gcp-devkit",

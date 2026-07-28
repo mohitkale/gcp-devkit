@@ -1,7 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "gcp-devkit",
-  "displayName": "GCP DevKit",
   "version": "1.1.0",
   "description": "Practical Google Cloud guidance for Terraform, Cloud Run, GKE, Firestore, IAM reviews, and incident diagnosis.",
   "author": {

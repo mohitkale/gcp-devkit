@@ -109,7 +109,7 @@ Cloud credentials remain your responsibility. Use a least-privilege account and 
 
 ## Requirements
 
-- A current, authenticated Claude Code installation. The release was validated with Claude Code 2.1.206.
+- An authenticated Claude Code installation. The release was validated with Claude Code 2.1.114 and 2.1.206.
 - Node.js 20 or another supported current Node LTS for the optional hooks.
 - `gcloud` installed and authenticated when using live GCP inspection or diagnostics.
 - Terraform when you want to format or validate Terraform output.
@@ -127,7 +127,7 @@ You can still use the Firestore rules guidance and generate infrastructure files
 
 ## Tested release behavior
 
-This release was validated in Docker Desktop with a network-disabled Node 20 container. The check exercises the session-start hook fixtures, post-tool-use hook cases, JavaScript syntax, and manifest parsing. Claude Code 2.1.206 also validates the plugin and marketplace manifests locally.
+This release was validated in Docker Desktop with a network-disabled Node 20 container. The check exercises the session-start hook fixtures, post-tool-use hook cases, JavaScript syntax, and manifest parsing. Claude Code 2.1.114 and 2.1.206 also validate the manifests locally.
 
 The test does not call a live Google Cloud account. That is intentional: a distributable plugin must be safe to validate without customer credentials. Before using live diagnostics, run `/gcp-devkit:doctor` in the intended environment.
 
