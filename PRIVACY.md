@@ -4,7 +4,7 @@
 
 **Repository:** https://github.com/mohitkale/gcp-devkit
 
-**Maintainer:** GCP DevKit contributors
+**Maintainer:** Mohit Kale
 
 ## Summary
 

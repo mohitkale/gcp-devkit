@@ -24,8 +24,8 @@ docker run --rm --network none -v "$PWD:/plugin:ro" -w /plugin node:20-alpine sh
 
 ```bash
 mkdir -p dist
-zip -qr "dist/gcp-devkit-v1.1.0.zip" . -x '.git/*' 'dist/*' '.DS_Store'
-unzip -l "dist/gcp-devkit-v1.1.0.zip"
+zip -qr "dist/gcp-devkit-v1.1.1.zip" . -x '.git/*' 'dist/*' '.DS_Store'
+unzip -l "dist/gcp-devkit-v1.1.1.zip"
 ```
 
 Confirm the archive contains `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `skills/`, `agents/`, `commands/`, and `hooks/`, but not `.git/`, `dist/`, or local credential files.

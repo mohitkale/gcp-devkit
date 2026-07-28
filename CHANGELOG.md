@@ -4,6 +4,12 @@ All notable changes to this plugin are documented here.
 
 The format is based on Keep a Changelog, and this plugin uses semantic versioning.
 
+## [1.1.1] - 2026-07-28
+
+### Fixed
+
+- Restored maintainer and copyright attribution without publishing a personal email address.
+
 ## [1.1.0] - 2026-07-28
 
 ### Added

@@ -1,7 +1,7 @@
 {
   "name": "gcp-devkit-marketplace",
   "owner": {
-    "name": "GCP DevKit contributors"
+    "name": "Mohit Kale"
   },
   "metadata": {
     "description": "A focused Google Cloud workflow plugin for Claude Code."
@@ -11,7 +11,7 @@
       "name": "gcp-devkit",
       "source": "./",
       "description": "Practical Google Cloud guidance for Terraform, Cloud Run, GKE, Firestore, IAM reviews, and incident diagnosis.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "category": "development",
       "tags": ["gcp", "terraform", "cloud-run", "gke", "iam"]
     }

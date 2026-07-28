@@ -62,13 +62,13 @@ Each GitHub release should include a `gcp-devkit-vX.Y.Z.zip` asset. Claude Code 
 macOS Terminal:
 
 ```bash
-claude --plugin-dir "$HOME/Downloads/gcp-devkit-v1.1.0.zip"
+claude --plugin-dir "$HOME/Downloads/gcp-devkit-v1.1.1.zip"
 ```
 
 Windows PowerShell:
 
 ```powershell
-claude --plugin-dir "$HOME\Downloads\gcp-devkit-v1.1.0.zip"
+claude --plugin-dir "$HOME\Downloads\gcp-devkit-v1.1.1.zip"
 ```
 
 This is the documented direct-ZIP route. Do not rely on an undocumented graphical "upload" flow in a Claude app, because availability can differ by platform and account. To make the plugin persistent, use the marketplace route above.
